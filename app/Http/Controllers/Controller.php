@@ -15,6 +15,12 @@ class Controller extends BaseController
 		$dressData = Dress::getDress($gender);
 		return view('dashboard', array('dress' => $dressData));
 	}
+
+	public function show(){
+		echo "hello";
+		Dress::updateURL();
+		return view('index');
+	}
 }
 
 

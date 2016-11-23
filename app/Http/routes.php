@@ -16,11 +16,11 @@ Route::get('/', function () {
     //return 'This is our about page';
 });
 
-Route::get('/about', function(){
- 	return 'This is our about page';
- });
+//Route::get('/men', 'Controller@showDress');
+//Route::get('/women', 'Controller@showDress');
+Route::get('/{gender}', ['as' => 'show_dress', 'uses' => 'Controller@showDress']);
 
-Route::get('/{gender}', 'Controller@showDress');
+Route::get('/update', 'Controller@show');
 
 /*
 |--------------------------------------------------------------------------

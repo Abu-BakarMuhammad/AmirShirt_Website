@@ -17,4 +17,10 @@ class Dress extends Model
 	    }
 	    return $result;
 	}
+
+	public static function updateURL(){
+		DB::table('MenDress')
+            ->where('id', 2)
+            ->update(['image_name' => "/images/men/men-3.jpg"]);
+	}
 }

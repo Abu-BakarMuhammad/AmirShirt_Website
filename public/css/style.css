@@ -70,7 +70,7 @@
     letter-spacing: 5px;
 }
 .templatemo-header-left-overlay {
-    background-color:rgba(140, 26, 255,0.5) /*rgba(0,0,0,0.8)*/;
+    background-color:rgba(140, 26, 255,0.4) /*rgba(0,0,0,0.8)*/;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -90,27 +90,26 @@
 }
 .templatemo-header-right {
     height: 450px;
-    background: url(../images/header-img.jpg) no-repeat;
+    background: url(../images/men_2.jpg) no-repeat;
     background-size: cover;
 }
 .templatemo-header-right-overlay {
-    background-color: rgba(128, 253, 255, 0.4);
+    background-color: rgba(128, 253, 255, 0.4); /*rgba(128, 253, 255, 0.4)*/
     height: 100%;
     width: 100%;
 
 }
-.templatemo-nav {
+.templatemo-nav-right{
     height: 60px;
     width: 100%;
     background: #8c1aff;
 }
-
-.templatemo-nav li {
+.templatemo-nav-right li {
     line-height: 60px;
     display: inline-block;
 }
 
-.templatemo-nav a {
+.templatemo-nav-right a {
     color: #FF7A5A;
     display: inline-block;
     width: 105px;
@@ -118,12 +117,43 @@
     text-align: center;
     transition: all 0.3s ease;
 }
-.templatemo-nav a:hover { text-decoration: none; }
-.templatemo-nav li.active a,
-.templatemo-nav a:hover {
+.templatemo-nav-righy a:hover { text-decoration: none; }
+.templatemo-nav-right li.active a,
+.templatemo-nav-right a:hover {
     background: #FCF4D9;
 }
 
+.templatemo-nav-left{
+    height: 60px;
+    width: 100%;
+    background:  #40E0D0;
+}
+.templatemo-nav-left li {
+    line-height: 60px;
+    display: inline-block;
+}
+.templatemo-nav-left a {
+    color:  #666666;
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding-top: 5px;
+
+}
+.templatemo-nav-left .fa-facebook-square:hover {
+    color: #003d66;
+}
+.templatemo-nav-left .fa-linkedin-square:hover {
+    color: #005c99;
+}
+.templatemo-nav-left .fa-twitter-square:hover {
+    color: #1aa3ff;
+}
+.fa-stack:hover .fa-circle {
+    color: white;
+}
 .welcome{
     padding: 3em 0;
 }
@@ -162,7 +192,7 @@ h1.welcome-heading {
     height: 36em;
 }
 .work-grids.work-1-img {
-    background: url(../images/img3.jpg)no-repeat 0px 0px;
+    background: url(../images/men_6.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 36em;
 }
@@ -173,7 +203,7 @@ h1.welcome-heading {
     list-style-type: none;
 }
 .work-grids.work-2-img {
-    background: url(../images/img4.jpg)no-repeat 0px 0px;
+    background: url(../images/men_4.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 36em;
 }
@@ -237,4 +267,10 @@ h3.product-item-heading{
     border-color: #F1A94E;
     max-height: 15em;
     max-width: 15em;
+}
+.dress-image{
+
+    max-height: 1000px;
+    height: 400px;
+    width:300px;
 }

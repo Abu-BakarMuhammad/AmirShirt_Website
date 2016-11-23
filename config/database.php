@@ -55,10 +55,10 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', '192.168.1.121'),
-            'port'      => env('DB_PORT', '3000'),
+            //'port'      => env('DB_PORT', '3000'),
             'database'  => env('DB_DATABASE', 'amirshirtwebsite'),
             'username'  => env('DB_USERNAME', 'root'),
-            'password'  => env('DB_PASSWORD', ''),
+            'password'  => env('DB_PASSWORD', '1'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
